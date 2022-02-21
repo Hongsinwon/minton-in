@@ -1,27 +1,4 @@
-/* 기본셋팅 */
-body {
-  background: #ddd;
-}
-
-.wrap {
-  position: relative;
-  margin: 0 auto;
-  max-width: 480px;
-  height: 100vh;
-  background: #fff;
-}
-
-.total-bg {
-  width: 100%;
-  position: absolute;
-  top: 0;
-}
-
-.z-index {
-  z-index: 1;
-}
-
-/* intro */
+/* 0. intro */
 .intro-title {
   height: 100%;
   display: flex;
@@ -46,7 +23,7 @@ body {
   font-size: 12px;
 }
 
-/* login */
+/* 1. login */
 .login-title {
   padding-top: 50%;
   display: flex;
@@ -62,6 +39,7 @@ body {
 
 .login-title span {
   color: #555;
+  font-size: 16px;
 }
 
 .login-icon {
@@ -101,4 +79,67 @@ body {
 .login-footer a:hover {
   color: #0047bb;
   text-decoration: underline;
+}
+
+/* 1-1 certification */
+.certification-title {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.certification-title img {
+  width: 300px;
+}
+.certification-title p {
+  text-align: center;
+  font-size: 16px;
+}
+.certification-title p span {
+  font-weight: bold;
+}
+
+/* 2_infoInput */
+.info-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.info-img img {
+  padding: 35px;
+  width: 50px;
+  background: #f1f1f5;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.info-email {
+  display: grid;
+  grid-template-columns: 1fr 30px 1fr;
+  box-sizing: border-box;
+}
+
+.info-email span {
+  text-align: center;
+  line-height: 40px;
+}
+
+.classBtn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.classBtn button,
+.careerBtn button {
+  height: 40px;
+  border-radius: 5px;
+}
+
+.careerBtn {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 10px;
 }

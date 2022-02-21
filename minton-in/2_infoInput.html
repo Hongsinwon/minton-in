@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+    <link rel="stylesheet" type="text/css" href="css/commonness.css" />
+
+    <title>Minton-in</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <nav class="topNav transparent">
+        <img class="back" src="img/icon/back.png" alt="뒤로가기" />
+        <p class="topNav-title">정보 입력</p>
+      </nav>
+      <div class="content">
+        <div class="info-img mb-40 pt-40">
+          <img src="img/icon/camera.png" alt="카메라" class="zindex-3" />
+          <span class="ir_su">사진입력</span>
+        </div>
+        <div class="full-input padding-16">
+          <label>성함</label>
+          <input
+            type="text"
+            placeholder="성함을 입력해주세요."
+            class="zindex-3 mb-30"
+          />
+
+          <label>생년월일</label>
+          <input
+            type="text"
+            placeholder="생년월일을 입력해주세요. (ex)990101"
+            class="zindex-3 mb-30"
+          />
+
+          <label>성별 </label>
+          <div class="mb-30 grid2-btn">
+            <button class="lightgray-Btnbg">남성</button>
+            <button class="lightgray-Btnbg">여성</button>
+          </div>
+
+          <label>핸드폰번호</label>
+          <input
+            type="text"
+            placeholder="핸드폰번호를 '-'없이 입력해주세요. "
+            class="mb-30"
+          />
+
+          <label>이메일 </label>
+          <div class="info-email mb-30">
+            <input type="email" placeholder="email" />
+            <span>@</span>
+            <select name="email">
+              <option>naver.com</option>
+              <option>gmail.com</option>
+            </select>
+          </div>
+
+          <label>한줄소개</label>
+          <input
+            type="text"
+            placeholder="한줄소개를 입력해주세요.  "
+            class="mb-60"
+          />
+        </div>
+
+        <div class="block mb-60"></div>
+
+        <div class="full-input padding-16">
+          <label>배드민턴 급수 </label>
+          <div class="mb-30 classBtn">
+            <button class="lightgray-Btnbg">자강</button>
+            <button class="lightgray-Btnbg">A</button>
+            <button class="lightgray-Btnbg">B</button>
+            <button class="lightgray-Btnbg">C</button>
+            <button class="lightgray-Btnbg">D</button>
+            <button class="lightgray-Btnbg">초심</button>
+            <button class="lightgray-Btnbg">왕초심</button>
+          </div>
+
+          <label>배드민턴 경력 </label>
+          <div class="mb-40 careerBtn">
+            <button class="lightgray-Btnbg">아마추어</button>
+            <button class="lightgray-Btnbg">프로</button>
+            <input type="text" placeholder="경력 (숫자만 입력) " />
+          </div>
+        </div>
+
+        <div class="full-btn padding-16 mb-20">
+          <button class="mainblue-Btnbg">가입</button>
+        </div>
+      </div>
+      <div>
+        <img class="total-bg" src="img/bg.png" />
+      </div>
+    </div>
+  </body>
+</html>

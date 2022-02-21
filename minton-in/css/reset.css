@@ -146,3 +146,8 @@ button {
 .clearfix:after {
   clear: both;
 }
+
+/* 배경 */
+body {
+  background: #f1f1f5;
+}
