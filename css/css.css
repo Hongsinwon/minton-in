@@ -1,0 +1,104 @@
+/* 기본셋팅 */
+body {
+  background: #ddd;
+}
+
+.wrap {
+  position: relative;
+  margin: 0 auto;
+  max-width: 480px;
+  height: 100vh;
+  background: #fff;
+}
+
+.total-bg {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.z-index {
+  z-index: 1;
+}
+
+/* intro */
+.intro-title {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-title img {
+  width: 300px;
+}
+.intro-title span {
+  color: #eee;
+}
+
+.intro-footer {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%);
+  color: #eee;
+  font-size: 12px;
+}
+
+/* login */
+.login-title {
+  padding-top: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-title img {
+  width: 300px;
+  z-index: 1;
+}
+
+.login-title span {
+  color: #555;
+}
+
+.login-icon {
+  margin-top: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.login-icon li {
+  margin: 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-icon li .icon-img {
+  padding: 13px 10px 7px 10px;
+  border-radius: 10px;
+}
+
+.login-icon li .icon-img img {
+  width: 30px;
+  height: 30px;
+}
+
+.login-icon li p {
+  margin-top: 10px;
+  color: #555;
+}
+
+.login-footer {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.login-footer a,
+.login-footer a:hover {
+  color: #0047bb;
+  text-decoration: underline;
+}

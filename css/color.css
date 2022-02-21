@@ -1,0 +1,20 @@
+/* 배경 */
+.mainblue-bg {
+  background: #0047bb;
+}
+
+/* 글씨 */
+.main-blue {
+  color: #0047bb;
+}
+
+/* 간단로그인 배경 */
+.kakac-bg-col {
+  background: #ffe600;
+}
+.naver-bg-col {
+  background: #31b24a;
+}
+.google-bg-col {
+  background: #f5f5f5;
+}

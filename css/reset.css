@@ -1,0 +1,148 @@
+/* 여백 초기화 */
+body,
+div,
+ul,
+li,
+dl,
+dd,
+dt,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+fieldset,
+legend,
+p,
+span,
+select,
+table,
+th,
+td,
+tr,
+textarea,
+button,
+form,
+figure,
+figcaption,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+/* a태그 스타일 초기화 */
+a {
+  color: #222;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+}
+a,
+button {
+  cursor: pointer;
+}
+
+/* 폰트*/
+html {
+  font-size: 10px;
+}
+body,
+input,
+textarea,
+select,
+button,
+table {
+  font-family: "Roboto", "Noto Sans KR", "sans-serif";
+  color: #222;
+  font-size: 1.4rem;
+  line-height: auto;
+  letter-spacing: -0.05rem;
+}
+
+/* 글자 스타일 */
+em,
+address {
+  font-style: normal;
+}
+
+/* 리스트 스타일 */
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+/* 타이틀 설정 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+input {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+input,
+select,
+button {
+  vertical-align: middle;
+}
+
+.ir_pm {
+  display: block;
+  overflow: hidden;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999px;
+}
+.ir_wa {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.ir_su {
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  text-indent: -9999px;
+}
+
+/* margin, padding */
+
+video {
+  width: 100%;
+}
+
+button {
+  border: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: block;
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
