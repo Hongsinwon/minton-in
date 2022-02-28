@@ -74,6 +74,12 @@
 }
 
 /* 1.topNav */
+
+header.active {
+  background: #fff;
+  border-bottom: 1px solid #f1f1f5;
+}
+
 .topNav {
   display: flex;
   position: fixed;
@@ -85,19 +91,36 @@
   background: #fff;
   box-sizing: border-box;
   z-index: 99;
+  justify-content: space-between;
 }
-.topNav img {
-  padding: 12px 24px 12px 0;
-  width: 36px;
+
+.topNav-left {
+  display: flex;
+}
+.topNav-left img {
+  padding: 14px 20px 14px 0;
   cursor: pointer;
 }
 
+.topNav-left img.logo {
+  width: 100%;
+}
+
+.topNav-left img.back {
+  width: 32px;
+}
+
 .topNav .topNav-title {
-  width: 50%;
   height: 60px;
   line-height: 60px;
   font-weight: bold;
   font-size: 18px;
+}
+
+.topNav-right img {
+  width: 32px;
+  padding: 14px 0 14px 28px;
+  cursor: pointer;
 }
 
 /* 2. input */
@@ -110,6 +133,7 @@
   margin-bottom: 10px;
   font-size: 14px;
   color: #555;
+  font-weight: bold;
 }
 
 .full-input input {
